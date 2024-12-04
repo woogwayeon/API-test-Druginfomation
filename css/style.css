@@ -1,0 +1,58 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#wrap h1{
+    padding: 30px;
+    text-align: center;
+    color: hotpink;
+    font-size: 60px;
+}
+
+.drug{
+    width: 1030px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.drugWrap{
+    border: 2px solid pink;
+    padding: 20px;
+    margin-bottom: 8px;
+    width: 500px;
+    height: 180px;
+    overflow: auto;
+    text-align: left;
+}
+.hd{
+    display: block;
+    font-weight: 800;
+    font-size: 18px;
+    color: hotpink;
+    padding-top: 28px;
+    padding-bottom: 8px;
+}
+.drugWrap p:first-child .hd{
+    padding-top: 0;
+}
+.more{
+    width: 300px;
+    height: 60px;
+    border: none;
+    background-color: hotpink;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+}
